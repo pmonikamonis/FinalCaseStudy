@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-26T17:26:42 IST" name="Default suite" finished-at="2024-12-26T17:27:20 IST" duration-ms="38578">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.UserLoginTestRunner@11392934]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-12-26T17:26:42 IST" name="Default test" finished-at="2024-12-26T17:27:20 IST" duration-ms="38578">
+      <class name="TestRunner.UserLoginTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.UserLoginTestRunner@11392934]" started-at="2024-12-26T17:26:42 IST" name="setUpClass" finished-at="2024-12-26T17:26:42 IST" duration-ms="743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@328d044f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.UserLoginTestRunner@11392934]" started-at="2024-12-26T17:26:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-26T17:26:55 IST" duration-ms="12402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login into App"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Conduit CRUD Functions"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.UserLoginTestRunner@11392934]" started-at="2024-12-26T17:26:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-26T17:26:56 IST" duration-ms="903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create new Article"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Conduit CRUD Functions"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.UserLoginTestRunner@11392934]" started-at="2024-12-26T17:26:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-26T17:26:59 IST" duration-ms="3631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View Article"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Conduit CRUD Functions"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.UserLoginTestRunner@11392934]" started-at="2024-12-26T17:26:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-26T17:27:02 IST" duration-ms="2368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update an Article"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Conduit CRUD Functions"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.UserLoginTestRunner@11392934]" started-at="2024-12-26T17:27:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-26T17:27:20 IST" duration-ms="18218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete an Article"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Conduit CRUD Functions"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.UserLoginTestRunner@11392934]" started-at="2024-12-26T17:27:20 IST" name="tearDownClass" finished-at="2024-12-26T17:27:20 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.UserLoginTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
